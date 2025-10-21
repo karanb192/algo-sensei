@@ -2,6 +2,8 @@
 
 Use this structure when providing complete solutions to ensure consistency and clarity.
 
+**Note:** Adapt code examples to the user's preferred programming language.
+
 ---
 
 ## Problem: [Problem Name]
@@ -53,10 +55,11 @@ Output: [output]
 
 **Idea:** [Simplest approach, even if inefficient]
 
-```python
-def solution_brute_force(input):
-    # Straightforward but inefficient approach
-    pass
+**Language:** [User's chosen language - Python/JavaScript/Java/C++/Go/etc.]
+
+```[language]
+// Straightforward but inefficient approach
+// Code in user's preferred language
 ```
 
 **Time Complexity:** O(?)
@@ -91,8 +94,12 @@ Output: [result]
 ```
 
 **Code:**
+
+<language-specific-examples>
+
+**Python:**
 ```python
-def optimal_solution(input):
+def optimal_solution(input_param):
     """
     Brief description of approach
     """
@@ -105,11 +112,81 @@ def optimal_solution(input):
     return result
 ```
 
+**JavaScript:**
+```javascript
+function optimalSolution(inputParam) {
+    // Brief description of approach
+
+    // Initialize variables
+    let result = null;
+
+    // Main logic with comments
+    // ...
+
+    return result;
+}
+```
+
+**Java:**
+```java
+class Solution {
+    public ReturnType optimalSolution(InputType inputParam) {
+        // Brief description of approach
+
+        // Initialize variables
+        ReturnType result = null;
+
+        // Main logic with comments
+        // ...
+
+        return result;
+    }
+}
+```
+
+**C++:**
+```cpp
+class Solution {
+public:
+    ReturnType optimalSolution(InputType inputParam) {
+        // Brief description of approach
+
+        // Initialize variables
+        ReturnType result;
+
+        // Main logic with comments
+        // ...
+
+        return result;
+    }
+};
+```
+
+**Go:**
+```go
+func optimalSolution(inputParam InputType) ReturnType {
+    // Brief description of approach
+
+    // Initialize variables
+    var result ReturnType
+
+    // Main logic with comments
+    // ...
+
+    return result
+}
+```
+
+</language-specific-examples>
+
+**Provide code in user's preferred language. Include comments explaining each section.**
+
 **Detailed Explanation:**
 
-**Line-by-line breakdown:**
-- `Line X`: [What it does and why]
-- `Line Y`: [What it does and why]
+**Key components:**
+- **Initialization:** [What and why]
+- **Main logic:** [How the algorithm works]
+- **Return:** [What we're returning]
 
 **Why this is optimal:**
 - [Explanation of why this is the best approach]
@@ -150,21 +227,34 @@ def optimal_solution(input):
 5. **[Problem-specific edge case]:** → Expected: [result]
 
 ### Test Cases
+
+**Format depends on language:**
+
+**Python:**
 ```python
 # Test 1: Basic case
-input = [example]
-expected = [output]
-assert solution(input) == expected
+assert solution([example]) == expected
 
 # Test 2: Edge case
-input = [edge case]
-expected = [output]
-assert solution(input) == expected
+assert solution([edge_case]) == expected
+```
 
-# Test 3: Maximum constraint
-input = [max case]
-expected = [output]
-assert solution(input) == expected
+**JavaScript:**
+```javascript
+// Test 1: Basic case
+console.assert(solution([example]) === expected);
+
+// Test 2: Edge case
+console.assert(solution([edgeCase]) === expected);
+```
+
+**Java:**
+```java
+// Test 1: Basic case
+assert solution(example).equals(expected);
+
+// Test 2: Edge case
+assert solution(edgeCase).equals(expected);
 ```
 
 ---
@@ -200,12 +290,7 @@ assert solution(input) == expected
 - [Or, why current time is optimal]
 
 **Space optimization:**
-```python
-def space_optimized_solution(input):
-    # Space-optimized version
-    # Trade time for space or vice versa
-    pass
-```
+[Show trade-offs if space can be reduced]
 
 **Trade-offs:**
 - [What we gain vs what we sacrifice]
@@ -268,49 +353,32 @@ Practice these related problems:
 
 ---
 
-## Complete Code (Production-Ready)
+## Language-Specific Notes
 
-```python
-def solution(input_param):
-    """
-    [Problem description in one line]
+**Python:**
+- Use list comprehensions for concise code
+- `collections.defaultdict` and `Counter` are helpful
+- Remember list slicing creates copies
 
-    Args:
-        input_param: [Description and type]
+**JavaScript:**
+- Use `Map` and `Set` for better performance
+- Array methods like `.map()`, `.filter()`, `.reduce()`
+- Watch for type coercion
 
-    Returns:
-        [Return type and description]
+**Java:**
+- Use `HashMap`, `HashSet`, `ArrayList`
+- Watch for null pointer exceptions
+- Consider using streams for cleaner code
 
-    Time Complexity: O(?)
-    Space Complexity: O(?)
-    """
-    # Input validation
-    if not input_param:
-        return [edge case result]
+**C++:**
+- Use `unordered_map`, `unordered_set`, `vector`
+- Watch for iterator invalidation
+- Consider using STL algorithms
 
-    # Initialize
-    result = None
-
-    # Main algorithm
-    # [Clean, well-commented code]
-
-    return result
-
-
-# Example usage
-if __name__ == "__main__":
-    # Test cases
-    test_cases = [
-        ([input1], expected1),
-        ([input2], expected2),
-        ([input3], expected3),
-    ]
-
-    for i, (input_val, expected) in enumerate(test_cases):
-        result = solution(input_val)
-        status = "✓" if result == expected else "✗"
-        print(f"Test {i+1}: {status} Expected: {expected}, Got: {result}")
-```
+**Go:**
+- Use maps and slices effectively
+- No built-in set, use `map[Type]bool`
+- Slices are references, be careful with modifications
 
 ---
 
