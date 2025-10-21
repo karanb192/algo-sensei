@@ -102,12 +102,20 @@ git commit -m "Add Algo Sensei skill for DSA practice"
 
 Algo Sensei works great on Claude.ai too! Here's how:
 
-**Method 1: Project Knowledge (Recommended)**
+**Method 1: Project Knowledge (Recommended - Full Experience)**
 
 1. Go to [Claude.ai](https://claude.ai) and create a new Project
-2. Click "Add content" → Upload the `SKILL.md` file (or copy-paste its content)
-3. All conversations in this project now have Algo Sensei available!
-4. Just ask: "I need help with LeetCode problem X" and it adapts automatically
+2. Click "Add content" → Upload files
+3. Upload these key files for full functionality:
+   - `SKILL.md` (main skill)
+   - All files from `modes/` folder (5 files)
+   - All files from `templates/patterns/` folder (5 files)
+   - `docs/dsa-cheatsheet.md` (optional but helpful)
+4. All conversations in this project now have full Algo Sensei capabilities!
+
+**Method 1b: Quick Setup (SKILL.md only)**
+
+For a lighter setup, just upload `SKILL.md` - you'll get intelligent routing but won't have access to the detailed mode instructions and pattern templates.
 
 **Method 2: Copy Specific Modes**
 
@@ -122,7 +130,7 @@ If you have Claude Pro with custom instructions:
 1. Add shortened version of `SKILL.md` to your custom instructions
 2. Algo Sensei will be available in all chats
 
-> **Tip:** Project Knowledge is the best approach - it keeps your chat history clean and makes Algo Sensei reusable across multiple problems!
+> **Tip:** Project Knowledge with all files uploaded gives you the full experience - Claude can access all modes, patterns, and templates just like in Claude Code!
 
 ## Quick Start
 
