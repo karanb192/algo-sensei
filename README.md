@@ -56,15 +56,11 @@ Realistic mock interviews with:
 - Post-interview improvement plan
 
 ### 🗺️ Pattern Mapper Mode
-Master the 18 core algorithmic patterns:
-- Two Pointers
-- Sliding Window
-- Binary Search
-- Dynamic Programming
-- Backtracking
-- Graph Traversal
-- Tree DFS/BFS
-- And 11 more...
+Learn to recognize algorithmic patterns dynamically:
+- Teaches HOW to identify patterns, not just memorize them
+- Draws on Claude's comprehensive knowledge of ALL patterns
+- Builds transferable pattern-recognition skills
+- Works with any pattern: Two Pointers, DP, Graphs, Monotonic Stack, and more
 
 **Stop solving random problems. Start recognizing patterns.**
 
@@ -109,13 +105,13 @@ Algo Sensei works great on Claude.ai too! Here's how:
 3. Upload these key files for full functionality:
    - `SKILL.md` (main skill)
    - All files from `modes/` folder (5 files)
-   - All files from `templates/patterns/` folder (5 files)
    - `docs/dsa-cheatsheet.md` (optional but helpful)
+   - `templates/solutions/solution-template.md` (for structured solutions)
 4. All conversations in this project now have full Algo Sensei capabilities!
 
 **Method 1b: Quick Setup (SKILL.md only)**
 
-For a lighter setup, just upload `SKILL.md` - you'll get intelligent routing but won't have access to the detailed mode instructions and pattern templates.
+For a lighter setup, just upload `SKILL.md` - you'll get intelligent routing but won't have access to the detailed mode instructions.
 
 **Method 2: Copy Specific Modes**
 
@@ -246,13 +242,6 @@ Algo Sensei is built on research-backed learning principles:
 
 **The goal isn't solving 1000 problems. It's building the mental framework to solve ANY problem.**
 
-## Success Stories
-
-> "Before Algo Sensei, I'd look at a LeetCode medium and freeze. Now I can identify the pattern in 30 seconds. Game changer for my FAANG interviews." - *Anonymous user*
-
-> "The hint system is brilliant. I actually LEARN instead of just copying solutions. Wish I had this when I started." - *Reddit user*
-
-> "Passed my Google interview using techniques from Pattern Mapper mode. The 18 patterns framework is gold." - *Twitter testimonial*
 
 ## Roadmap
 
