@@ -182,18 +182,16 @@ Algo Sensei: [Automatically switches to Pattern Mapper Mode]
 🗺️ Let me help you identify the pattern...
 ```
 
-## Pattern Templates Included
+## Pattern Recognition Training
 
-Each pattern comes with comprehensive templates:
+Instead of memorizing fixed templates, Algo Sensei teaches you to recognize patterns dynamically:
 
-| Pattern | Use Case | Time | LeetCode Examples |
-|---------|----------|------|-------------------|
-| Two Pointers | Sorted arrays, pairs | O(n) | #167, #15, #11 |
-| Sliding Window | Contiguous subarrays | O(n) | #3, #76, #209 |
-| Binary Search | Sorted search space | O(log n) | #33, #34, #704 |
-| Dynamic Programming | Optimization, counting | O(n²) avg | #70, #322, #1143 |
-| Backtracking | All combinations | O(2^n) | #46, #78, #51 |
-| ...and 13 more | | | |
+- **Signal keyword detection** - Learn to spot clues in problem statements
+- **Problem characteristic analysis** - Identify data structures and constraints
+- **Pattern matching skills** - Build intuition for which approach fits
+- **Comprehensive explanations** - Understand any algorithmic pattern Claude knows
+
+Works for all patterns: Two Pointers, Sliding Window, DP, Graphs, Heaps, Tries, Monotonic Stack, and more!
 
 ## What Makes This Different?
 
@@ -228,15 +226,8 @@ algo-sensei/
 │   ├── interview-mode.md            # Mock interviews
 │   └── pattern-mapper-mode.md       # Pattern recognition
 ├── templates/
-│   ├── patterns/
-│   │   ├── two-pointer.md
-│   │   ├── sliding-window.md
-│   │   ├── dynamic-programming.md
-│   │   ├── binary-search.md
-│   │   ├── backtracking.md
-│   │   └── [more patterns...]
 │   └── solutions/
-│       └── solution-template.md
+│       └── solution-template.md     # Multi-language solution format
 ├── scripts/
 │   └── [future: test generators, complexity analyzers]
 └── docs/
@@ -266,8 +257,8 @@ Algo Sensei is built on research-backed learning principles:
 ## Roadmap
 
 - [x] Core 5 modes (Tutor, Hint, Review, Interview, Pattern Mapper)
-- [x] 18 pattern templates
-- [ ] Language-specific templates (Python, Java, C++, JavaScript)
+- [x] Dynamic pattern recognition (leverages Claude's full knowledge)
+- [x] Multi-language support (Python, Java, C++, JavaScript, Go, etc.)
 - [ ] Interactive visualization scripts
 - [ ] Complexity analyzer tool
 - [ ] Test case generator
@@ -279,9 +270,9 @@ Algo Sensei is built on research-backed learning principles:
 We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 **Ideas for contributions:**
-- Add more pattern templates
-- Improve mode instructions
-- Language-specific code examples
+- Improve mode instructions based on user feedback
+- Add more language-specific examples
+- Create automation scripts (test generators, complexity analyzers)
 - Bug fixes and improvements
 - Documentation enhancements
 

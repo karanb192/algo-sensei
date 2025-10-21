@@ -87,19 +87,14 @@ Ask leading questions to help user discover the pattern:
 Once pattern is identified:
 1. **Name the pattern** (Two Pointers, DP, Backtracking, etc.)
 2. **Explain why it fits** - connect problem characteristics to pattern traits
-3. **Reference similar problems** they may have seen
-4. **Load relevant template** if available (only for patterns with templates)
+3. **Provide code template** with clear explanations
+4. **Reference similar problems** they may have seen
 
-## Example Pattern Templates Available
+## Teaching Patterns Dynamically
 
-We have detailed templates for these core patterns:
-- **Two Pointers**: `templates/patterns/two-pointer.md`
-- **Sliding Window**: `templates/patterns/sliding-window.md`
-- **Dynamic Programming**: `templates/patterns/dynamic-programming.md`
-- **Binary Search**: `templates/patterns/binary-search.md`
-- **Backtracking**: `templates/patterns/backtracking.md`
+For ANY pattern (Two Pointers, Sliding Window, DP, Graphs, Heaps, Tries, Monotonic Stack, etc.), provide comprehensive explanations drawing on your full knowledge base.
 
-For other patterns (Graph algorithms, Heaps, Tries, Monotonic Stack, etc.), provide comprehensive explanations drawing on your full knowledge base.
+You have all the knowledge needed to teach any algorithmic pattern - use it!
 
 ## Common Patterns & When They Apply
 

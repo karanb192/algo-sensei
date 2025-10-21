@@ -33,17 +33,17 @@ Thank you for your interest in contributing to Algo Sensei! 🎉
 
 ### High Priority
 
-- 🎯 **New pattern templates** (Graph traversal, Tree patterns, Heap/Priority Queue, etc.)
-- 🌍 **Language-specific examples** (Java, C++, JavaScript, Go)
+- 🌍 **Language-specific examples** in modes (Java, C++, JavaScript, Go, Rust)
 - 🐛 **Bug fixes** in existing modes
-- 📚 **Improved explanations** in tutor/hint modes
-- ✅ **Test cases** and validation
+- 📚 **Improved explanations** based on user feedback
+- 🎯 **Better pattern recognition prompts** in Pattern Mapper mode
+- ✅ **Test the skill** and report issues
 
 ### Medium Priority
 
 - 🛠️ **Scripts** for automation (test generators, complexity analyzers)
 - 📊 **Visual aids** (better ASCII diagrams, flowcharts)
-- 🔍 **More problem examples** in pattern templates
+- 🔍 **More practical examples** in modes
 - 📖 **Documentation improvements**
 
 ### Nice to Have
@@ -75,21 +75,9 @@ Thank you for your interest in contributing to Algo Sensei! 🎉
 - Include examples
 - Follow existing mode structure
 
-### Pattern Template Checklist
+### Mode Enhancement Best Practices
 
-When adding a new pattern template:
-
-- [ ] Clear "When to Use" section
-- [ ] Time and space complexity noted
-- [ ] At least 2-3 code examples
-- [ ] Common variations covered
-- [ ] Practice problems listed
-- [ ] Common mistakes section
-- [ ] LeetCode problem references
-
-### Mode Enhancement Checklist
-
-When improving a mode:
+When improving modes:
 
 - [ ] Maintains consistent voice/tone
 - [ ] Follows existing structure
@@ -99,7 +87,7 @@ When improving a mode:
 
 ## Pull Request Process
 
-1. **Update README** if you're adding new patterns or features
+1. **Update README** if you're adding new features
 2. **Test your changes** - Actually use the skill in Claude Code
 3. **One feature per PR** - Keep PRs focused
 4. **Write clear PR description** - What, why, and how
