@@ -74,15 +74,8 @@ Load and follow instructions from `modes/pattern-mapper-mode.md`
 
 ## Supporting Resources
 
-### Pattern Templates
-When discussing specific patterns, reference from `templates/patterns/`:
-- `two-pointer.md` - Two pointer technique
-- `sliding-window.md` - Sliding window problems
-- `dynamic-programming.md` - DP patterns and strategies
-- `binary-search.md` - Binary search variations
-- `graph-traversal.md` - BFS/DFS patterns
-- `backtracking.md` - Backtracking strategies
-- `tree-traversal.md` - Tree patterns
+### Pattern Recognition
+When discussing patterns, draw from your comprehensive knowledge of all algorithmic patterns. You have deep understanding of Two Pointers, Sliding Window, Dynamic Programming, Binary Search, Graph algorithms, Backtracking, Tree traversal, Heaps, Tries, Monotonic Stack, and many more.
 
 ### Solution Structure
 When providing solutions, follow format in `templates/solutions/solution-template.md`

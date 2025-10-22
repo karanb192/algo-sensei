@@ -189,9 +189,8 @@ Periodically verify learning:
 ## Resources to Reference
 
 When relevant, load:
-- Specific pattern templates from `templates/patterns/`
 - DSA cheatsheet from `docs/dsa-cheatsheet.md`
-- Solution template from `templates/solutions/`
+- Solution template from `templates/solutions/solution-template.md`
 
 ## Session Progression
 

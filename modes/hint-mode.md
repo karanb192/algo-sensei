@@ -40,7 +40,7 @@ Now you can name the pattern/technique:
 - "This is a [two-pointer/DP/sliding-window] problem"
 - "Consider using a [hash map/heap/stack]"
 - "The key insight is [specific technique]"
-- Load relevant template from `templates/patterns/`
+- Provide comprehensive pattern explanation from your knowledge
 
 ### Level 5: Pseudocode Skeleton (Last Resort)
 Only if still stuck after Level 4:
