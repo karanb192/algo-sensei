@@ -42,6 +42,13 @@ logs/
 *.temp
 .cache/
 
+# Images and media (for demos)
+images/
+*.gif
+*.mp4
+*.mov
+screenshots/
+
 # User-specific files (if someone wants to add personal notes)
 notes.md
 scratch.md
