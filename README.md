@@ -1,10 +1,18 @@
+<div align="center">
+
 # Algo Sensei 🥋
 
-> Your Personal LeetCode & DSA Mentor - Master algorithms through intelligent guidance, not just solutions.
+**Your Personal LeetCode & DSA Mentor**
+
+Master algorithms through intelligent guidance, not just solutions.
+
+![Algo Sensei Demo](demo/demo.gif)
 
 [![Claude Code](https://img.shields.io/badge/Claude-Code-blueviolet)](https://claude.ai/code)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+</div>
 
 **Algo Sensei** is an intelligent Claude Code skill that transforms how you practice LeetCode and master Data Structures & Algorithms. Instead of just giving you answers, it **teaches you to think** like a senior engineer.
 

@@ -44,10 +44,12 @@ logs/
 
 # Images and media (for demos)
 images/
-*.gif
 *.mp4
 *.mov
 screenshots/
+
+# Allow demo GIF
+!demo/demo.gif
 
 # User-specific files (if someone wants to add personal notes)
 notes.md
