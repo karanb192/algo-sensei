@@ -72,6 +72,17 @@ Learn to recognize algorithmic patterns dynamically:
 
 **Stop solving random problems. Start recognizing patterns.**
 
+### 📅 Study Plan Mode
+Get a personalized study roadmap based on your goals and timeline:
+- Custom plans for any timeframe (1 week to 2+ months)
+- Topic-specific sprints for focused learning
+- Daily structure with warm-up, learning, practice, and review
+- Curated must-do problem lists by topic
+- Adaptive adjustments when you're ahead or behind schedule
+- Spaced repetition schedule for long-term retention
+
+**Stop wondering what to study next. Get a plan that fits your life.**
+
 ## Installation
 
 ### For Claude Code Users (Recommended)
@@ -186,6 +197,14 @@ Algo Sensei: [Automatically switches to Pattern Mapper Mode]
 🗺️ Let me help you identify the pattern...
 ```
 
+**Get a study plan:**
+```
+You: "I have 4 weeks before my Google interview. Can you create a study plan?"
+
+Algo Sensei: [Automatically switches to Study Plan Mode]
+📅 Let's build your 4-week prep plan for Google...
+```
+
 ## Pattern Recognition Training
 
 Instead of memorizing fixed templates, Algo Sensei teaches you to recognize patterns dynamically:
@@ -228,7 +247,8 @@ algo-sensei/
 │   ├── hint-mode.md                 # Progressive hints
 │   ├── review-mode.md               # Code review
 │   ├── interview-mode.md            # Mock interviews
-│   └── pattern-mapper-mode.md       # Pattern recognition
+│   ├── pattern-mapper-mode.md       # Pattern recognition
+│   └── study-plan-mode.md           # Personalized study plans
 ├── templates/
 │   └── solutions/
 │       └── solution-template.md     # Multi-language solution format
@@ -253,7 +273,7 @@ Algo Sensei is built on research-backed learning principles:
 
 ## Roadmap
 
-- [x] Core 5 modes (Tutor, Hint, Review, Interview, Pattern Mapper)
+- [x] Core 6 modes (Tutor, Hint, Review, Interview, Pattern Mapper, Study Plan)
 - [x] Dynamic pattern recognition (leverages Claude's full knowledge)
 - [x] Multi-language support (Python, Java, C++, JavaScript, Go, etc.)
 - [ ] Interactive visualization scripts
