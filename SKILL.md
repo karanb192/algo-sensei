@@ -55,6 +55,15 @@ Analyze the user's request and automatically engage the appropriate mode:
 - Wants to know "which technique to use"
 - Asks about problem categorization
 
+**STUDY PLAN MODE** - Trigger when user:
+- Asks for a "study plan" or "study schedule"
+- Says "I have X weeks/months to prepare"
+- Requests a "roadmap" for interview prep
+- Asks "what should I study?" or "where should I start?"
+- Wants a structured learning path
+- Mentions a target company and asks for preparation strategy
+- Says "create a prep plan" or "build a schedule"
+
 ## Mode-Specific Instructions
 
 ### When TUTOR MODE is detected:
@@ -71,6 +80,9 @@ Load and follow instructions from `modes/interview-mode.md`
 
 ### When PATTERN MAPPER MODE is detected:
 Load and follow instructions from `modes/pattern-mapper-mode.md`
+
+### When STUDY PLAN MODE is detected:
+Load and follow instructions from `modes/study-plan-mode.md`
 
 ## Supporting Resources
 
