@@ -233,7 +233,9 @@ algo-sensei/
 │   └── solutions/
 │       └── solution-template.md     # Multi-language solution format
 ├── scripts/
-│   └── [future: test generators, complexity analyzers]
+│   └── star_invitation.py           # Optional invitation repeat suppression
+├── tests/
+│   └── test_star_invitation.py      # Automated repeat-suppression tests
 └── docs/
     └── dsa-cheatsheet.md            # Quick reference
 ```
@@ -290,6 +292,15 @@ A: Absolutely! Tutor Mode is designed for beginners. Algo Sensei adapts to your 
 **Q: Does it support languages other than Python?**
 A: Yes! Algo Sensei supports all major programming languages (Python, JavaScript, Java, C++, Go, TypeScript, Rust, etc.). Just specify your preferred language and Claude will adapt accordingly.
 
+## Optional invitation
+
+After a useful outcome, the skill may offer one optional star invitation.
+It records the offer in `~/.cache/algo-sensei/star-invitation.json`
+(or under `XDG_CACHE_HOME`) before asking, so later conversations skip it.
+Clearing the cache or using another machine can reset the record. Starring
+through GitHub CLI requires an explicit yes. If the helper cannot run or
+write its record, the skill skips the invitation.
+
 ## License
 
 MIT License - See [LICENSE](LICENSE) file for details.
@@ -302,7 +313,6 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 ## Connect
 
-- ⭐ Star this repo if Algo Sensei helped you!
 - 🐛 Report issues via GitHub Issues
 - 💡 Suggest features via GitHub Discussions
 - 🐦 Share your success: `#AlgoSensei`
