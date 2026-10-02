@@ -233,7 +233,9 @@ algo-sensei/
 │   └── solutions/
 │       └── solution-template.md     # Multi-language solution format
 ├── scripts/
-│   └── [future: test generators, complexity analyzers]
+│   └── star_invitation.py           # Optional invitation repeat suppression
+├── tests/
+│   └── test_star_invitation.py      # Automated repeat-suppression tests
 └── docs/
     └── dsa-cheatsheet.md            # Quick reference
 ```
